@@ -8,8 +8,8 @@ Student area being possible to view the enrolled courses;
 Doubts forum for each course;
 Technical Features:
 
-Back-End language: Python;
-Framework: Django;
-Database: SQLite;
-Integration with YouTube via API;
-Front-End: JavaScript, HTML, CSS;
+- Back-End language: Python;
+- Framework: Django;
+- Database: SQLite;
+- Integration with YouTube via API;
+- Front-End: JavaScript, HTML, CSS;
