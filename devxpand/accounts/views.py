@@ -5,8 +5,8 @@ from django.conf import settings
 from .forms import RegisterForm, EditAccountForm, PasswordResetForm
 from django.contrib.auth.decorators import login_required
 from .models import PasswordReset
-from devxpand.core.utils import generate_hash_key
-from devxpand.courses.models import Enrollment
+from core.utils import generate_hash_key
+from courses.models import Enrollment
 from django.contrib import messages
 
 User = get_user_model()

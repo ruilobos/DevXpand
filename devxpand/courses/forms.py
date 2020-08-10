@@ -1,7 +1,7 @@
 from django import forms
 from django.core.mail import send_mail
 from django.conf import settings
-from devxpand.core.mail import send_mail_template
+from core.mail import send_mail_template
 from .models import Comment
 
 class ContactCourse(forms.Form):

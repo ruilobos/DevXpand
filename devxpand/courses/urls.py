@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from devxpand.courses import views
+from courses import views
 
 app_name="courses"
 app_name="details"

@@ -1,7 +1,7 @@
 from django.db import models
 from django.conf import settings
 from django.utils import timezone
-from devxpand.core.mail import send_mail_template
+from core.mail import send_mail_template
 
 class CourseManager(models.Manager):
     
@@ -38,7 +38,7 @@ class Course(models.Model):
     class Meta:
         verbose_name='Course'
         verbose_name_plural='Courses'
-        ordering=['Name']
+        ordering=['name']
         
 class Lesson(models.Model):
     

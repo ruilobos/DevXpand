@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from devxpand.forum import views
+from forum import views
 
 app_name="forum"
 app_name="details"

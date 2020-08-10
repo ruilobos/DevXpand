@@ -1,8 +1,8 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import get_user_model
-from devxpand.core.mail import send_mail_template
-from devxpand.core.utils import generate_hash_key
+from core.mail import send_mail_template
+from core.utils import generate_hash_key
 from .models import PasswordReset
 
 User = get_user_model()

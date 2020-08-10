@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from devxpand.core import views
+from core import views
 
 app_name="core"
 

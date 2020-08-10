@@ -6,6 +6,12 @@ from django.http import HttpResponse, JsonResponse
 from .models import Thread, Reply
 from .forms import ReplyForm
 
+# test function
+
+def test():
+    print("Esta funcionando")
+
+
 #class ForumView(TemplateView):
     
     #template_name = "forum/index.html"

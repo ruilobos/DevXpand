@@ -1,5 +1,5 @@
 from django.template import Library
-from devxpand.courses.models import Enrollment
+from courses.models import Enrollment
 
 register = Library()
 

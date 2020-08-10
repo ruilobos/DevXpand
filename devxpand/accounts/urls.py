@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from django.contrib.auth.views import LoginView, LogoutView
-from devxpand.accounts import views
+from accounts import views
 
 app_name="accounts"
 
