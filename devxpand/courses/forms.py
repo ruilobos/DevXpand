@@ -6,10 +6,10 @@ from .models import Comment
 
 class ContactCourse(forms.Form):
     
-    name = forms.CharField(label='Nome', max_length=100)
-    email = forms.EmailField(label='E-mail')
+    name = forms.CharField(label='Name', max_length=100)
+    email = forms.EmailField(label='Email')
     message = forms.CharField(
-        label='Mensagem/Duvida', widget=forms.Textarea
+        label='Message/Question', widget=forms.Textarea
     )
     
     def send_mail(self, course):

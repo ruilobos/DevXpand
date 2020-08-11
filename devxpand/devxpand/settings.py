@@ -78,12 +78,15 @@ WSGI_APPLICATION = 'devxpand.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# -- sqlite3 database config
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# -- postgresql database config
 
 
 # Password validation
