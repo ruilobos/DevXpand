@@ -1,11 +1,11 @@
-"""
-Production Settings for Heroku
-"""
+
+# roduction Settings for Heroku
+
 # django-environ package nust be install
 import environ
 
 # If using in your own project, update the project namespace below
-from base import *
+from devxpand.settings.base import *
 
 env = environ.Env(
     # set casting, default value
