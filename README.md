@@ -1,5 +1,6 @@
 # DevXpand
 DevXpand is a learning platform for developers
+Access the site: http://devxpand.herokuapp.com/
 
 Platform features:
 
